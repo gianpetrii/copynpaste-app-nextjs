@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Clipboard, File, FileText, Image as ImageIcon, Link, Plus, Trash2, Copy, Check, Upload, Download, Edit, Save, X } from 'lucide-react'
+import { ClipboardList, File, FileText, Image as ImageIcon, Link, Plus, Trash2, Copy, Check, Upload, Download, Edit, Save, X } from 'lucide-react'
 import { Card, CardContent } from "@/components/ui/card"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -166,7 +166,7 @@ export function CopyPasteAppComponent() {
         <div className="mx-auto max-w-2xl px-2 py-8 sm:px-6 sm:py-24 lg:max-w-3xl">
           <div className="backdrop-blur-sm bg-white/30 rounded-2xl shadow-xl ring-1 ring-black/5 p-8">
             <div className="flex items-center justify-center mb-8">
-              <Clipboard className="w-12 h-12 mr-4 text-[#0d1b2a]" />
+              <ClipboardList className="w-12 h-12 mr-4 text-[#0d1b2a]" />
               <h1 className="text-4xl font-bold text-center text-[#0d1b2a]">Copy&Paste</h1>
             </div>
 
