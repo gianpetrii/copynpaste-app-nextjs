@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Copy&Paste App
 
-## Getting Started
+## Descripción del Proyecto
 
-First, run the development server:
+Copy&Paste es una aplicación web que permite a los usuarios mover archivos fácilmente entre distintos sistemas operativos y dispositivos. La aplicación ofrece una interfaz intuitiva para agregar, editar, copiar y eliminar elementos, así como para cargar y descargar archivos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Requisitos Funcionales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. ABM de elementos de texto
+2. Carga y Descarga de archivos
+3. Editar elementos de texto existentes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Funcionalidades Actuales
+- [x] Interfaz de usuario básica con pestañas para texto y archivos
+- [x] Agregar y editar elementos de texto
+- [x] Cargar archivos con indicador de estado
+- [x] Copiar elementos de texto al portapapeles
+- [x] Descargar archivos
+- [x] Eliminar elementos
+- [x] Ordenar elementos
+- [x] Diseño responsivo
 
-## Learn More
+### Próximas Funcionalidades
+- [ ] Implementar persistencia de datos (almacenamiento local o base de datos)
+- [ ] Agregar autenticación de usuarios
+- [ ] Permitir la organización de elementos en carpetas o etiquetas?
+- [ ] Implementar búsqueda de elementos
+- [ ] Añadir vista previa de archivos (imágenes, PDFs, etc.)?
+- [ ] Compartir elementos con otros usuarios?
+- [ ] Implementar accesos directos de teclado para acciones comunes?
+- [ ] Integración con servicios de almacenamiento en la nube (Google Drive, Dropbox, etc.)?
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Mejoras Técnicas
+- [ ] Optimizar el rendimiento para manejar grandes cantidades de elementos
+- [ ] Añadir soporte para múltiples idiomas?
